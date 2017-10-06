@@ -11,3 +11,5 @@ pytest test_primes_auth_fixture.py -s
 pytest -k test_auth -s
 pytest -k test_fixture_in_conftest -s
 pytest -k test_parameterized_without_fixture -s
+pytest -k test_pytest_raises
+
