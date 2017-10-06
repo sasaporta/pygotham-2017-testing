@@ -7,7 +7,7 @@ import pytest
 from primes_auth import is_prime, prime_factors, User
 
 
-@pytest.fixture
+@pytest.fixture()
 def user():
     print 'Creating user.'
     return User('python', 'rocks')
